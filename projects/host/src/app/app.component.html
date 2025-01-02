@@ -1,9 +1,17 @@
 <div>This is my home</div>
 
 <a routerLink="my-remote-app">load remote microfrontend app</a>
+
+<a routerLink="app-test"> app test </a>
 <a routerLink="my-todo-list">load my-todo-list remote  microfrontend app</a>
 <a routerLink="my-test-list">load my-test  -list remote  microfrontend app</a>
 <a routerLink="remote2">load remote2 app </a>
 
 <a routerLink="feature">load feature  app </a>
+
+
+<h1>Host App Counter: {{ counter$ | async }}</h1>
+<button (click)="increment()">Increment</button>
+<button (click)="decrement()">Decrement</button>
+<button (click)="reset()">Reset</button>
 <router-outlet />

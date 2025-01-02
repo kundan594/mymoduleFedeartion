@@ -14,6 +14,11 @@ export const routes: Routes = [
       loadRemoteModule('remote', './TodoListComponent').then((m) => m.TodoListComponent),
   },
   {
+    path: 'app-test',
+    loadComponent: () =>
+      loadRemoteModule('remote', './AppComponent').then((m) => m.AppComponent),
+  },
+  {
     path: 'my-test-list',
     loadComponent: () =>
       loadRemoteModule('remote', './TestListComponent').then((m) => m.TestListComponent),

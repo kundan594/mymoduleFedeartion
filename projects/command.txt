@@ -23,6 +23,19 @@ ng g module feature --routing --project=mfe2
 
   ng g component remote3-list --project=mfe2  --module feature.module
 
+  ng serve host 
+
+  ng serve remote 
+
+  ng serve mfe2
+
+
+  npm install @ngrx/store @ngrx/effects @ngrx/entity @ngrx/store-devtools --save
+
+
+  ng new remote --standalone false   for add module concept 
+
+
 
  
 

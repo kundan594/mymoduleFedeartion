@@ -65,3 +65,9 @@ https://medium.com/@nitin_rajput/how-to-implement-angular-micro-frontend-a-simpl
 https://github.com/ntnraj14/medium-micro-frontend-guide.git
 
 
+
+https://github.com/sgarg5858/ngrx-in-nx-microfrontends/tree/main  ---nx repo
+
+https://github.com/vugar005/module-federation-space/tree/master -- custome elment 
+
+

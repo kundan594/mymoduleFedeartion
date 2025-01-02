@@ -5,7 +5,7 @@ import { TestListComponent } from './test-list/test-list.component';
 
 export const routes: Routes = [
   {
-    path: '',
+    path: 'app-test',
     component: AppComponent,
   },
   {

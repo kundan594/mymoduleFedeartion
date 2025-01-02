@@ -9,6 +9,7 @@ module.exports = withNativeFederation({
     './TodoListComponent': './projects/remote/src/app/todo-list/todo-list.component.ts', 
     './TestListComponent': './projects/remote/src/app/test-list/test-list.component.ts', 
   },
+  
 
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
