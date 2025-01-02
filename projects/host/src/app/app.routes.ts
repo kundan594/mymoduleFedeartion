@@ -18,4 +18,19 @@ export const routes: Routes = [
     loadComponent: () =>
       loadRemoteModule('remote', './TestListComponent').then((m) => m.TestListComponent),
   },
+  {
+    path: 'remote2',
+    loadComponent: () =>
+      loadRemoteModule('remote2', './Remote2ListComponent').then((m) => m.Remote2ListComponent),
+  },
+  {
+    path: 'feature',
+    loadChildren: () =>
+      loadRemoteModule({      
+        remoteEntry: 'http://localhost:4203/remoteEntry.js',
+        exposedModule: './FeatureModule',
+      }).then((m) => m.FeatureModule),
+  },
+  
+  
 ];

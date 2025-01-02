@@ -1,3 +1,6 @@
 {
-	"remote": "http://localhost:4201/remoteEntry.json"
+	"remote": "http://localhost:4201/remoteEntry.json",
+	"remote2": "http://localhost:4202/remoteEntry.json",
+	"mfe2": "http://localhost:4203/remoteEntry.json"
+
 }
