@@ -71,3 +71,13 @@ https://github.com/sgarg5858/ngrx-in-nx-microfrontends/tree/main  ---nx repo
 https://github.com/vugar005/module-federation-space/tree/master -- custome elment 
 
 
+withNativeFederation   vs withModuleFederationPlugin 
+
+RXjs implementation -- https://stackblitz.com/@JerryDoubleU  --udemy
+
+
+
+
+
+
+

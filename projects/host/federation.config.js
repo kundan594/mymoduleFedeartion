@@ -5,6 +5,7 @@ module.exports = withNativeFederation({
   exposes: {
     './Store': './projects/host/src/app/store/counter.reducer.ts',
     './Actions': './projects/host/src/app/store/counter.actions.ts',
+    './SharedService': './projects/host/src/app/service/shared.service.ts',
   },
   // remotes: {
   //   microApp: 'http://localhost:4201/remoteEntry.js', // URL of the micro app
